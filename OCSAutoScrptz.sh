@@ -112,8 +112,8 @@ apt-get -y install zip unzip
 cd /home/vps/public_html
 cd /home/vps/public_html
 wget https://raw.githubusercontent.com/beeggy/epiphany/master/jerz.zip
-unzip OCSPanel.zip
-rm -f OCSPanel.zip
+unzip jerz.zip
+rm -f jerz.zip
 chown -R www-data:www-data /home/vps/public_html
 chmod -R g+rw /home/vps/public_html
 
