@@ -1,0 +1,31 @@
+#!/bin/bash
+
+clear
+echo -e "                                                        "
+echo 'echo -e "\e[0;32mBEEGGY"' >> .bashrc
+echo 'echo -e "\e[0;32mBEEGGY"' >> .bashrc
+echo 'echo -e "\e[0;32mBEEGGY"' >> .bashrc
+echo 'echo -e "\e[0;32mBEEGGY"' >> .bashrc
+echo 'echo -e "\e[0;32mBEEGGY"' >> .bashrc
+echo 'echo -e "\e[0;32mBEEGGY"' >> .bashrc
+echo -e "\e[92m.  ---------------------------------------------------------------      "
+echo -e "\e[92m         OCS Panel Template by BEEGGY(EPIPHANY)         "
+echo -e "\e[92m                                                  "
+echo -e "\e[92m     Do you Really want to install this OCS Panel Template?    "
+echo -e "\e[92m        1) Yes                    "
+echo -e "\e[92m        2) No                  "
+echo -e "\e[92m                                                  "
+read -p "     Select an option [1-2]: " option
+  case $option in
+        1)
+        clear
+        wget https://raw.githubusercontent.com/beeggy/epiphany/master/epiphany.sh
+        chmod +x epiphany.sh
+        ./epiphany.sh
+        exit
+        ;;
+        2)
+        clear
+        exit
+        ;;
+  esac
